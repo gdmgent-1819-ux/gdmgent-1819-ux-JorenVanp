@@ -233,20 +233,20 @@ ul{
     background-image: url("file:///D:/Documenten/Artevelde/SEM%202/UX/Eindopdracht/StartCode/gdmgent-1819-ux-JorenVanpoucke-master/assets/images/6Foto's/spring-fed-images-136098-unsplash.jpg");
 }
 .img4{
-    margin-top: 50px;
+    margin-top: 30px;
     border-bottom-left-radius: 35px;
     background-size: cover;
     background-position: 0px;
     background-image: url("file:///D:/Documenten/Artevelde/SEM%202/UX/Eindopdracht/StartCode/gdmgent-1819-ux-JorenVanpoucke-master/assets/images/6Foto's/rye-jessen-1146995-unsplash.jpg");
 }
 .img5{
-    margin-top: 50px;
+    margin-top: 30px;
     background-size: cover;
     background-position: 0px;
     background-image: url("file:///D:/Documenten/Artevelde/SEM%202/UX/Eindopdracht/StartCode/gdmgent-1819-ux-JorenVanpoucke-master/assets/images/6Foto's/rob-hayman-458285-unsplash.jpg");
 }
 .img6{
-    margin-top: 50px;
+    margin-top: 30px;
     background-size: cover;
     background-position: 0px;
     background-image: url("file:///D:/Documenten/Artevelde/SEM%202/UX/Eindopdracht/StartCode/gdmgent-1819-ux-JorenVanpoucke-master/assets/images/6Foto's/jonathan-forage-367660-unsplash.jpg");
@@ -257,7 +257,7 @@ ul{
     color: var(--c-secondary);
     font-weight: 900;
     text-align: center;
-    margin-bottom: 188px;
+    margin-bottom: 120px;
 }
 .infoBody{
     text-decoration: none;
