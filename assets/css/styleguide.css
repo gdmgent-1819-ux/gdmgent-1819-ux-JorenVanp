@@ -1,9 +1,16 @@
+@import url('variables.css');
+
+body {
+    font-family: var(--f-body);
+    background-color: rgb(223, 223, 223);
+}
+
 .sg-title {
     font-size: 1.7rem;
     font-weight: 400;
     color: #333;
     margin: 1rem 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .sg-subtitle {
@@ -13,5 +20,301 @@
     color: #666;
     text-transform: uppercase;
     margin: 2rem 0 .5rem 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.color-blue {
+    background-color: var(--c-primary);
+    height: 25px;
+    width: 80px;
+}
+
+.color-orange {
+    background-color: var(--c-secondary);
+    height: 25px;
+    width: 80px;
+}
+
+.color-darkGrey {
+    background-color: var(--c-tertiary);
+    height: 25px;
+    width: 80px;
+}
+
+.color-lightGrey {
+    background-color: var(--c-quaternary);
+    height: 25px;
+    width: 80px;
+    line-height: 1.5;
+}
+
+
+.lato-l {
+    font-family: var(--f-body);
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.lato-r {
+    font-family: var(--f-body);
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.lato-s {
+    font-family: var(--f-body);
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.lato-b {
+    font-family: var(--f-body);
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.elephant {
+    font-family: var(--f-logo);
+    line-height: 1.5;
+}
+
+
+.btn-stand {
+    color: white;
+    font-family: var(--f-body);
+    font-weight: 900;
+    font-size: 22px;
+    text-align: center;
+    border: none;
+    background-color: var(--c-secondary);
+    height: 56px;
+    width: 250px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.btn-res {
+    color: white;
+    font-family: var(--f-body);
+    font-weight: 900;
+    font-size: 21px;
+    text-align: center;
+    border: none;
+    background-color: var(--c-secondary);
+    height: 72px;
+    width: 422px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.btn-left {
+    color: white;
+    font-family: var(--f-body);
+    font-weight: 900;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    background-color: var(--c-secondary);
+    height: 51px;
+    width: 300px;
+    border-bottom-left-radius: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-right {
+    color: var(--c-secondary);
+    font-family: var(--f-body);
+    font-weight: 900;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    background-color: white;
+    height: 51px;
+    width: 300px;
+    border-top-right-radius: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.fname {
+    color: var(--c-tertiary);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+
+.fnameLabel {
+    height: 45px;
+    width: 450px;
+    color: var(--c-tertiary);
+    border: 1px solid var(--c-quaternary);
+    padding-left: 33px;
+    outline: none;
+}
+
+::placeholder {
+    color: var(--c-secondary);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.quantity {
+    text-align: center;
+    width: 150px;
+    height: 45px;
+    border: 1px solid var(--c-quaternary);
+    outline: none;
+    color: var(--c-secondary);
+    font-weight: 300;
+}
+
+.quantity::placeholder{
+    color: var(--c-secondary);
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.dateLeft{
+    height: 45px;
+    width: 225x;
+    border: 1px solid var(--c-quaternary);
+    padding-left: 33px;
+    outline: none;
+    border-bottom-left-radius: 25px;
+    display: inline-block;
+    margin: 0;
+}
+
+.dateRight{
+    height: 45px;
+    width: 225x;
+    border: 1px solid var(--c-quaternary);
+    padding-left: 33px;
+    outline: none;
+    border-top-right-radius: 25px;
+    display: inline-block;
+    margin: 0;
+}
+
+.dateName{
+    color: var(--c-tertiary);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.dateNameRight{
+    color: var(--c-tertiary);
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: inline-block;
+    padding-left: 140px;
+}
+input[type=date]:invalid::-webkit-datetime-edit {
+    color: var(--c-secondary);
+    font-weight: 300;
+}
+
+.extraWensen{
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-right:  12px;
+    padding-bottom:  12px;
+    border: 1px solid var(--c-quaternary);
+    outline: none;
+    font-size: 14px; 
+}
+
+.standImg{
+    background-image: url("file:///D:/Documenten/Artevelde/SEM%202/UX/Eindopdracht/StartCode/gdmgent-1819-ux-JorenVanpoucke-master/assets/images/teddy-kelley-69798-unsplash.jpg");
+    width: 397px;
+    height: 334px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-size: cover;
+}
+
+.promKader{
+    width: 248px;
+    height: 291px;
+    background-color: var(--c-primary);
+    color: white;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.promGroot{
+    font-size: 46px;
+    font-weight: 900;
+    padding-bottom: 21px;
+    text-align: center;
+    margin: 0;
+}
+
+.promKlein{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.vet{
+    font-size: 24;
+    font-weight: 900;
+
+}
+
+
+
+.header-container{
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*HEADER*/
+.logo{
+    width: 344px;
+    height: 136px;
+    padding-right: 127px;
+}
+
+.logo img{
+    width: 100%;
+}
+ul{
+    padding: 0;
+}
+.navSelected{
+    font-size: 26px;
+    font-weight: 900;
+    color: var(--c-primary);
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.navHeader{
+    font-size: 26px;
+    font-weight: 900;
+    color: var(--c-tertiary);
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.navHeader:hover{
+    font-size: 26px;
+    font-weight: 900;
+    color: var(--c-primary);
+    text-decoration: underline;
+    display: inline-block;
 }

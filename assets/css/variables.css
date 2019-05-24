@@ -1,9 +1,17 @@
-
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
 :root {
   /**
    * Colour palette
    */
-  --c-primary: hsl(190, 100%, 40%);
+   --c-ahs-blauw: hsl(242, 62%, 48%);
+   --c-ahs-oranje: hsl(21, 59%, 55%);
+   --c-ahs-grijs-donker: hsl(0, 0%, 22%);
+   --c-ahs-grijs-licht: hsl(0, 0%, 44%);
+
+   --c-primary: var(--c-ahs-blauw);
+   --c-secondary: var(--c-ahs-oranje);
+   --c-tertiary: var(--c-ahs-grijs-donker);
+   --c-quaternary: var(--c-ahs-grijs-licht);
 
   /**
    * Layout
@@ -13,14 +21,9 @@
   /**
    * Typography
    */
-  --t-primary: Arial, Helvetica, sans-serif;
-  --t-secondary: Arial, Helvetica, sans-serif;
-  --t-tertiary: monospace;
-
-  --t-headline: var(--t-primary);
-  --t-subtitle: var(--t-primary);
-  --t-body: var(--t-secondary);
-  --t-code: var(--t-tertiary);
+   --f-body: 'Lato';
+   --f-heading: 'Lato';
+   --f-logo: 'Elephant';
 }
 
 

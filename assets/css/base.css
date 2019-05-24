@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: var(--t-body);
+  font-family: var(--f-body);
   height: inherit;
   margin: 0;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,14 +9,163 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/styleguide.css">
 </head>
+
 <body>
-<div class="container">
-    <h1 class="sg-title">Digital styleguide</h1>
-    <h2 class="sg-subtitle">Kleuren</h2>
-    <h2 class="sg-subtitle">Typografie</h2>
-    <h2 class="sg-subtitle">Knopppen</h2>
-    <h2 class="sg-subtitle">Formulier</h2>
-    <h2 class="sg-subtitle">Componenten</h2>
-</div>
+    <div class="container">
+        <h1 class="sg-title">Digital styleguide</h1>
+        <h2 class="sg-subtitle">Kleuren</h2>
+        <div>
+            <p>#342FC6</p>
+            <div class="color-blue"></div>
+        </div>
+        <div>
+            <p>#D07847</p>
+            <div class="color-orange"></div>
+        </div>
+        <div>
+            <p>#373737</p>
+            <div class="color-darkGrey"></div>
+        </div>
+        <div>
+            <p>#707070</p>
+            <div class="color-lightGrey"></div>
+        </div>
+
+
+        <h2 class="sg-subtitle">Typografie</h2>
+        <div>
+            <div>
+                <h3>Lato light</h3>
+                <p class="lato-l">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam aut tempora veniam
+                    molestiae sed,
+                    asperiores minima earum veritatis deserunt velit at qui, sequi quis ullam! Sunt quis distinctio a
+                    nobis.</p>
+            </div>
+            <h3>Lato regular</h3>
+            <p class="lato-r">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam aut tempora veniam
+                molestiae sed,
+                asperiores minima earum veritatis deserunt velit at qui, sequi quis ullam! Sunt quis distinctio a nobis.
+            </p>
+        </div>
+        <div>
+            <h3>Lato semibold</h3>
+            <p class="lato-s">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam aut tempora veniam
+                molestiae sed,
+                asperiores minima earum veritatis deserunt velit at qui, sequi quis ullam! Sunt quis distinctio a nobis.
+            </p>
+        </div>
+        <div>
+            <h3>Lato bold</h3>
+            <p class="lato-b">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam aut tempora veniam
+                molestiae sed,
+                asperiores minima earum veritatis deserunt velit at qui, sequi quis ullam! Sunt quis distinctio a nobis.
+            </p>
+        </div>
+        <div>
+            <h3>Elephant (logo)</h3>
+            <p class="elephant">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam aut tempora veniam
+                molestiae sed,
+                asperiores minima earum veritatis deserunt velit at qui, sequi quis ullam! Sunt quis distinctio a nobis.
+            </p>
+        </div>
+
+        <h2 class="sg-subtitle">Knopppen</h2>
+        <div>
+            <h3>Standaard knop</h3>
+            <div>
+                <button class="btn-stand">Ik wil kamperen</button>
+            </div>
+        </div>
+
+        <div>
+            <h3>Reservatie knop</h3>
+            <div>
+                <button class="btn-res">Reserveren als kampeerder? Klik hier!</button>
+            </div>
+        </div>
+
+        <div>
+            <h3>switch knop</h3>
+            <span>
+                <button class="btn-left">Verblijven als kampeerder</button>
+            </span>
+            <span>
+                <button class="btn-right">Verblijven met camper</button>
+            </span>
+        </div>
+
+
+        <h2 class="sg-subtitle">Formulier</h2>
+        <div>
+            <h3>Gegevens</h3>
+            <div>
+                <form action="text" class="fname">Naam verantwoordelijke</form>
+                <input type="text" placeholder="Voornaam en naam *" class="fnameLabel" required>
+            </div>
+        </div>
+
+        <div>
+            <h3>Aantal</h3>
+            <div>
+                <form action="text" class="fname">Aantal kinderen</form>
+                <input class="quantity" min="0" max="32" name="form-0-quantity" value="0" type="number" required>
+            </div>
+        </div>
+
+        <div>
+            <h3>Data</h3>
+            <div>
+                <p class="dateName">Aankomst</p>
+                <p class="dateNameRight">vertrek</p>
+                <div>
+                    <span>
+                            
+                <input type="date" class="dateLeft" required>
+                
+                <input type="date" class="dateRight" required>
+            </span>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h3>Tekst</h3>
+            <div>
+                    <form action="text" class="fname">Extra wensen</form>
+                <textarea rows="4" cols="50" name="extra" form="usrform" class="extraWensen" placeholder="Bv. extra brandhout klaarleggen. 
+(Let op extra's worden ook aangerekend)"></textarea>
+            </div>
+        </div>
+        <h2 class="sg-subtitle">Componenten</h2>
+        <h3>Standaard foto formaat</h3>
+        <div class="standImg">
+        </div>
+
+        <h3>Promo kader</h3>
+        <div class="promKader">
+            <h3 class="promGroot">Promo!</h3>
+            <p class="promKlein">Vanaf <b class="vet">8</b> personen <br>komt de <b class="vet">9e</b> persoon <b class="vet">gratis</b> mee!</p>
+        </div>
+    
+        <h3>Header</h3>
+    </div>
+        <header class="header-container">
+            <div class="logo">
+                <a href="index.html" title="Campout home page">
+                    <img src="assets/images/Logo.png" alt=""></a>
+            </div>
+            <nav>
+                <ul>
+                    <li class="navSelected"><a href="index.html"></a>Home</li>
+                    <li class="navHeader"><a href="#"></a>Over ons</li>
+                    <li class="navHeader"><a href="#"></a>Contact</li>
+                    <li class="navHeader"><a href="#"></a>Reserveren</li>
+                    <li class="navHeader"><a href="#"></a>NL<i class="fas fa-sort-down"></i></li>
+                </ul>
+            </nav>
+        </header>
+    
+    
 </body>
+
 </html>
