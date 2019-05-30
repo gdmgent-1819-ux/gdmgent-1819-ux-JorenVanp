@@ -217,39 +217,39 @@ ul{
 }
 
 .img1{
-    background-image: url("file:///D:/Documenten/Artevelde/SEM%202/UX/Eindopdracht/StartCode/gdmgent-1819-ux-JorenVanpoucke-master/assets/images/6Foto's/teddy-kelley-69798-unsplash.jpg");
+    background-image: url("/assets/images/6Foto/1.jpg");
     background-size: cover;
     background-position: 0px;
 }
 .img2{
     background-size: cover;
     background-position: 0px;
-    background-image: url("file:///D:/Documenten/Artevelde/SEM%202/UX/Eindopdracht/StartCode/gdmgent-1819-ux-JorenVanpoucke-master/assets/images/6Foto's/tyson-dudley-749130-unsplash.jpg");
+    background-image: url("/assets/images/6Foto/2.jpg");
 }
 .img3{
     border-top-right-radius: 35px;
     background-size: cover;
     background-position: 0px;
-    background-image: url("file:///D:/Documenten/Artevelde/SEM%202/UX/Eindopdracht/StartCode/gdmgent-1819-ux-JorenVanpoucke-master/assets/images/6Foto's/spring-fed-images-136098-unsplash.jpg");
+    background-image: url("/assets/images/6Foto/3.jpg");
 }
 .img4{
     margin-top: 30px;
     border-bottom-left-radius: 35px;
     background-size: cover;
     background-position: 0px;
-    background-image: url("file:///D:/Documenten/Artevelde/SEM%202/UX/Eindopdracht/StartCode/gdmgent-1819-ux-JorenVanpoucke-master/assets/images/6Foto's/rye-jessen-1146995-unsplash.jpg");
+    background-image: url("/assets/images/6Foto/4.jpg");
 }
 .img5{
     margin-top: 30px;
     background-size: cover;
     background-position: 0px;
-    background-image: url("file:///D:/Documenten/Artevelde/SEM%202/UX/Eindopdracht/StartCode/gdmgent-1819-ux-JorenVanpoucke-master/assets/images/6Foto's/rob-hayman-458285-unsplash.jpg");
+    background-image: url("/assets/images/6Foto/5.jpg");
 }
 .img6{
     margin-top: 30px;
     background-size: cover;
     background-position: 0px;
-    background-image: url("file:///D:/Documenten/Artevelde/SEM%202/UX/Eindopdracht/StartCode/gdmgent-1819-ux-JorenVanpoucke-master/assets/images/6Foto's/jonathan-forage-367660-unsplash.jpg");
+    background-image: url("/assets/images/6Foto/6.jpg");
 }
 
 .linkBody{
