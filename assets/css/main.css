@@ -129,16 +129,17 @@ ul{
     height: 334px;
 }
 
-.standImgLinks img{
+.standImgLinks{
     width: 397px;
     height: 334px;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
-    background-size: contain;
+    object-fit: cover;
     background-position: 0px;
     float: left;
     margin-right: 50px;
 }
+
 .tekstRechts{
     font-size: 18px;
     font-weight: 400;
@@ -154,16 +155,12 @@ ul{
     line-height: 1.6;
 }
 
-
-
-
 .standImgRechts{
-    background-image: url("file:///D:/Documenten/Artevelde/SEM%202/UX/Eindopdracht/StartCode/gdmgent-1819-ux-JorenVanpoucke-master/assets/images/remy_loz-188296-unsplash.jpg");
     width: 397px;
     height: 334px;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
-    background-size: cover;
+    object-fit: cover;
     background-position: 0px;
     float: right;
     margin-left: 50px;
@@ -215,39 +212,33 @@ ul{
 }
 
 .img1{
-    background-image: url("/assets/images/6Foto/1.jpg");
     background-size: cover;
     background-position: 0px;
 }
 .img2{
     background-size: cover;
     background-position: 0px;
-    background-image: url("/assets/images/6Foto/2.jpg");
 }
 .img3{
     border-top-right-radius: 35px;
     background-size: cover;
     background-position: 0px;
-    background-image: url("/assets/images/6Foto/3.jpg");
 }
 .img4{
     margin-top: 30px;
     border-bottom-left-radius: 35px;
     background-size: cover;
     background-position: 0px;
-    background-image: url("/assets/images/6Foto/4.jpg");
 }
 .img5{
     margin-top: 30px;
     background-size: cover;
     background-position: 0px;
-    background-image: url("/assets/images/6Foto/5.jpg");
 }
 .img6{
     margin-top: 30px;
     background-size: cover;
     background-position: 0px;
-    background-image: url("/assets/images/6Foto/6.jpg");
 }
 
 .linkBody{
