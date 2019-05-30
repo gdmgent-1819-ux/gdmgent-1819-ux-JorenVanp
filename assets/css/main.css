@@ -129,18 +129,16 @@ ul{
     height: 334px;
 }
 
-.standImgLinks{
-    background-image: url("file:///D:/Documenten/Artevelde/SEM%202/UX/Eindopdracht/StartCode/gdmgent-1819-ux-JorenVanpoucke-master/assets/images/josh-hild-1073671-unsplash.jpg");
+.standImgLinks img{
     width: 397px;
     height: 334px;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
-    background-size: cover;
+    background-size: contain;
     background-position: 0px;
     float: left;
     margin-right: 50px;
 }
-
 .tekstRechts{
     font-size: 18px;
     font-weight: 400;
